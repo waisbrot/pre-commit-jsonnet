@@ -1,0 +1,6 @@
+---
+- id: jsonnetfmt
+  name: jsonnetfmt
+  entry: jsonnetfmt -i
+  language: system
+  files: "\\.(?:jsonnet|libsonnet)"
